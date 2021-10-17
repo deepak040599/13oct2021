@@ -47,7 +47,8 @@
         var deepak = ' ';
         for (let i=0;i<s.length;i++){
             console.log(s[i]);
-            deepak = deepak + s[i] + ' ';
+            // deepak = deepak + s[i] + ' '; not optimised
+             deepak += s[i]+ ' '; //optimised
         }
         console.log(deepak);
 
