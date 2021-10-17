@@ -18,13 +18,13 @@
 
     <script>
         // spread operator /copy operator
-        let a = ["snil","defe","fgfgfg"];
+      /*  let a = ["snil","defe","fgfgfg"];
         console.log(a);
         // array.length
         console.log(a.length);
         let b = [...a,"defefe","frgfrr","sss","sbgu"];
         console.log(b);
-
+*/
 
         let x = [ "my","name", "is","john"]
         let y = [...x, "sina","i","am","www","world"]
@@ -37,6 +37,20 @@
 
         }
         console.log(paragraph);
+
+
+        let p = ["the","price","of","petrol","and","diesel"];
+        let q = [...p,"rose","to","the","highest","level"];
+        let r = [...q,"of","105","a","litre","and","111"];
+        let s = [...r,"per","litre","in","mumbai","according","to"]
+
+        var deepak = ' ';
+        for (let i=0;i<s.length;i++){
+            console.log(s[i]);
+            deepak = deepak + s[i] + ' ';
+        }
+        console.log(deepak);
+
     </script>
 </body>
 </html>
